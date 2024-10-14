@@ -1,0 +1,36 @@
+{
+  "name": "@ggc12319/rspack-vue2-pdf",
+  "version": "0.0.1",
+  "description": "vue2 pdf viewer build with rspack",
+  "main": "src/vuePdfNoSss.vue",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuangAD/rspack-vue-pdf.git"
+  },
+  "keywords": [
+    "vue.js",
+    "vue2",
+    "pdf"
+  ],
+  "author": "GuangAD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuangAD/rspack-vue-pdf/issues"
+  },
+  "homepage": "https://github.com/GuangAD/rspack-vue-pdf#readme",
+  "dependencies": {
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "loader-utils": "^1.4.0",
+    "pdfjs-dist": "^2.5.207 <2.8.0",
+    "raw-loader": "^4.0.1",
+    "vue-resize-sensor": "^2.0.0",
+    "worker-rspack-loader": "3.1.0"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.0"
+  },
+  "devDependencies": {
+    "vue": "2.7.14"
+  }
+}
